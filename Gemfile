@@ -30,3 +30,7 @@ group :development do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'devise', '~> 4.3'
+gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'mini_magick', '~> 4.7'
+gem 'carrierwave-aws', '~> 1.1'
