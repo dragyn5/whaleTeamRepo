@@ -1,5 +1,12 @@
-<h1>New Comment</h1>
+<div class="container">
+	<div class="card card-inverse" style="background-color: #333; border-color: #333;">
+	  <div class="card-block">
+	    <h3 class="card-title">New Comment</h3>
+	    <p class="card-text"><%= render 'form', comment: @comment %></p>
+	  </div>
 
-<%= render 'form', comment: @comment %>
-
-<%= link_to 'Back', comments_path %>
+	  <div class="float-right">
+		<%= link_to 'Back', root_path %>
+		</div>
+	</div>
+</div>
